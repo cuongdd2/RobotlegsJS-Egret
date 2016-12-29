@@ -1,0 +1,52 @@
+{
+  "name": "robotlegs-egret",
+  "version": "1.0.0-alpha.1",
+  "description": "Egret View Integration with RobotlegsJS",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.example.config.js",
+    "autoformat": "tsfmt -r",
+    "clean-up": "rm -rf coverage && rm -rf lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cuongdd2/RobotlegsJS-Egret.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "keywords": [
+    "TypeScript",
+    "Robotlegs",
+    "IoC",
+    "PIXI"
+  ],
+  "author": "San Dinh Studios",
+  "contributors": [
+    "Do Duc Cuong <cuongdd2@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cuongdd2/RobotlegsJS-Egret/issues"
+  },
+  "homepage": "https://github.com/cuongdd2/RobotlegsJS-Egret#readme",
+  "dependencies": {
+    "eventemitter3": "^2.0.2",
+    "egret": "github:egret-labs/egret-core#v3.2.6",
+    "robotlegs": "^1.0.0-alpha.12"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.24.1",
+    "reflect-metadata": "^0.1.8",
+    "ts-loader": "^1.2.0",
+    "ts-node": "^1.7.0",
+    "typescript": "^2.1.4",
+    "typescript-formatter": "^4.0.0",
+    "webpack": "2.1.0-beta.27",
+    "webpack-dev-server": "^2.1.0-beta.0"
+  },
+  "peerDependencies": {
+    "reflect-metadata": "^0.1.8"
+  }
+}
