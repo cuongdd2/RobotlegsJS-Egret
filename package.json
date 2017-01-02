@@ -33,7 +33,6 @@
   "homepage": "https://github.com/cuongdd2/RobotlegsJS-Egret#readme",
   "dependencies": {
     "eventemitter3": "^2.0.2",
-    "egret": "github:egret-labs/egret-core#v3.2.6",
     "robotlegs": "^1.0.0-alpha.12"
   },
   "devDependencies": {

@@ -21,15 +21,7 @@ module.exports = (function(options) {
 
     module: {
       rules: [
-        { test: /\.ts$/, loader: "ts-loader?configFileName=" + tsconfig },
-        {
-          test: /^(.(?!\.test))*\.ts$/,
-          loader: "istanbul-instrumenter-loader",
-          query: {
-            embedSource: true
-          },
-          enforce: "post"
-        }
+        { test: /\.ts$/, loader: "ts-loader?configFileName=" + tsconfig }
       ]
     },
 
